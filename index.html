@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="devchallenges.png" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Lora&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/normalize.css" rel="stylesheet" />
+    <title>Interior Consultant</title>
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+        font-size: 3.8rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+
+      <h1 class="header-title">This interior</h1>
+
+      <button class="menu-check">
+        <label for="dropdown">
+          <span id="open" class="material-symbols-outlined"> menu </span>
+          <span id="close" class="material-symbols-outlined"> close </span>
+        </label>
+        <input type="checkbox" id="dropdown" />
+      </button>
+
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="#">Collection</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+
+    <main class="main">
+      <div class="main-description">
+        <h2>Modern interior</h2>
+        <p>
+          A full-Service residential & commercial interior design and staging
+          company offering professional organizing & eco-services.
+        </p>
+        <a href="#"><span>Read more --></span></a>
+      </div>
+      <div class="main-design-content">
+        <div class="main-image-portrait">
+          <!-- diseño de la sala -->
+          <img src="img/photo1.png" alt="image" />
+        </div>
+        <div class="main-card">
+          <!-- diseñadora -->
+          <div class="mc-row-1">
+            <div class="mc-row-1-col-1">
+              <img src="img/photo2.png" alt="aliza webber" />
+            </div>
+            <div class="mc-row-1-col-2">
+              <h3>Aliza Webber</h3>
+              <p>Interior Designer</p>
+            </div>
+          </div>
+          <div class="mc-row-2">
+            <p>Designed in 2020 by Aliza Webber</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p class="footer-text">
+        created by <span class="username">tinoreyna1984</span> -
+        devChallenges.io
+      </p>
+    </footer>
+  </body>
+  <script src="js/script.js"></script>
+</html>
