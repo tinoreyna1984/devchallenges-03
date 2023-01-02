@@ -83,6 +83,10 @@ a.active::after {
   display: none;
 }
 
+#open, #close {
+  cursor: pointer;
+}
+
 #close {
   position: fixed;
   display: none;
